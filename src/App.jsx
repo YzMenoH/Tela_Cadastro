@@ -1,12 +1,14 @@
-import Form from './assets/components/Form'
+
 import './App.css'
+import Condicional from './components/evento/Condicional'
+
 
 function App() {
 
   return (
     <>
-      <h1>TELA LOGIN</h1>
-      <Form></Form>
+      <h1>TELA DE EVENTO</h1>
+      <Condicional/>
     </>
   )
 }
